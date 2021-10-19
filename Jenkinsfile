@@ -19,6 +19,9 @@ pipeline {
                     junit '**/target/surefire-reports/TEST-*.xml'
                     archiveArtifacts 'target/*.jar'
                 }
+                success {
+                    sh 'echo Build Completed Successfully'
+                }
             }
             
         }
