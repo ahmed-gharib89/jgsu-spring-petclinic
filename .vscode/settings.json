@@ -1,3 +1,13 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "jenkins-runner.hostConfigs": {
+        "local": {
+            "url": "http://localhost:7090"
+        },
+        "local-secure": {
+            "url": "http://localhost:7090",
+            "user": "gharib",
+            "password": "Pythonic@89"
+        }
+    }
 }
